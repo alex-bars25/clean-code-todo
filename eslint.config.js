@@ -7,8 +7,6 @@ export default defineConfig([
   js.configs.recommended,
   {
     files: ['**/*.js'],
-    plugins: { js },
-    extends: ['js/recommended', 'prettier'],
     rules: {
       'no-var': 'error',
       'prefer-const': 'error',
